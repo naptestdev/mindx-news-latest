@@ -25,6 +25,14 @@ nav {
   align-items: center;
 }
 
+.nav-links a {
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e24432;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -40,6 +48,11 @@ nav {
   text-transform: uppercase;
   font-weight: 600;
   padding: 10px;
+  transition: 0.3s;
+}
+
+.navigation-links a:hover {
+  color: #e24432;
 }
 
 .navigation-links a:first-child {
@@ -53,5 +66,5 @@ nav {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #66a9ef;
+  background: #e24432;
 }

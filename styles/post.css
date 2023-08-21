@@ -1,0 +1,25 @@
+.content {
+  flex: 1;
+  margin: 40px 0 20px 0;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.content .date {
+  text-align: right;
+  color: gray;
+  font-size: 13px;
+}
+
+.content h1 {
+  font-size: 32px;
+}
+
+.content p {
+  font-size: 16px;
+  padding: 14px 0;
+}
