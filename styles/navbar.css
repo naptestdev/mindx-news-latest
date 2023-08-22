@@ -30,7 +30,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #e24432;
+  color: #bf281b;
 }
 
 .navigation {
@@ -52,7 +52,7 @@ nav {
 }
 
 .navigation-links a:hover {
-  color: #e24432;
+  color: #bf281b;
 }
 
 .navigation-links a:first-child {
@@ -66,5 +66,34 @@ nav {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #e24432;
+  background: #bf281b;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 20px 0;
+  }
+
+  .navbar img {
+    height: 25px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .navigation {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .navigation-links {
+    flex-wrap: nowrap;
+    justify-content: start;
+  }
+
+  .navigation-links a {
+    font-size: 14px;
+    white-space: nowrap;
+  }
 }
